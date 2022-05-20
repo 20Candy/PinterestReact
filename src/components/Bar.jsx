@@ -1,11 +1,11 @@
 import React from 'react';
-import pinterest from './img/logo.png';
-import user from './img/user.png';
-import mensaje from './img/msg.png';
-import busqueda from './img/search.png';
-import notificacion from './img/bell.png';
+import pinterest from '../images/logo.png';
+import user from '../images/user.png';
+import mensaje from '../images/msg.png';
+import busqueda from '../images/search.png';
+import notificacion from '../images/bell.png';
 
-function PinterestLayout() {
+function Bar() {
 
     return(
         <div className="header">
@@ -30,3 +30,4 @@ function PinterestLayout() {
     )
 
 }
+export default Bar
