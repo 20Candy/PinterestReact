@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    margin-top: 48px;
+}
+
+.app-content {
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 15px 10px;
+    padding: 0;
+    border-radius: 16px;
+    background-color: whitesmoke;
+}
+
+
+.small {
+    grid-row-end: span 26;
+    background-image: url("https://i.pinimg.com/236x/aa/c5/01/aac50120a65c69fb8d422156f3df0dce.jpg");
+    background-size: 230px 230px;
+    background-repeat: no-repeat;
+
+}
+
+.medium {
+    grid-row-end: span 33;
+    background-image: url("https://i.pinimg.com/474x/ac/ed/c4/acedc45cd847e5c559151cb1c341f5aa.jpg");
+    background-size: 229px 299px;
+    background-repeat: no-repeat;
+
+    
+}
+
+.large {
+    grid-row-end: span 45;
+    background-image: url("https://i.pinimg.com/564x/2a/ff/58/2aff58301698f650754bfb286f4a5009.jpg");
+    background-size: 229px 419px;
+    background-repeat: no-repeat;
+}
+
+.pin_container{
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+    display: grid ;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-auto-rows: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    background-color:white;
+}
