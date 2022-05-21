@@ -1,9 +1,9 @@
 const data_list = [
     {
         key: '1',
-        img: 'https://i.pinimg.com/564x/ab/ef/52/abef5285bb51bbb8f3c8ce3f9a35e542.jpg',
+        img: 'https://24.media.tumblr.com/9b847d8b205c5508d21d99d93946c6af/tumblr_mjr0kjXKIM1s757s7o1_400.gif',
         size: 'small',
-        title: 'Gatito Naranja',
+        title: 'Gatitito Saltarin',
         user: 'Carol Arevalo',
         reaction: 'https://s.pinimg.com/webapp/wow-3cb697ef.svg',
         likes: '1',
@@ -150,6 +150,16 @@ const data_list = [
         user: 'Jonny Depp',
         reaction: 'https://s.pinimg.com/webapp/wow-3cb697ef.svg',
         likes: '124',
+    },
+
+    {
+        key: '17',
+        img: 'https://i.pinimg.com/564x/ab/ef/52/abef5285bb51bbb8f3c8ce3f9a35e542.jpg',
+        size: 'small',
+        title: 'Gato Naranja',
+        user: 'Carol Arevalo',
+        reaction: 'https://s.pinimg.com/webapp/wow-3cb697ef.svg',
+        likes: '1',
     },
 
 ]

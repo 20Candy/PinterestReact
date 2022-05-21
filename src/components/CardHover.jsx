@@ -11,9 +11,8 @@ function OnHover(props) {
             <h1 className="guardar">Guardar</h1>
             <div>
                 <img className="share" src={share} alt="share" />
-                <img  className="dots" src={dots} alt="dots" />
+                <img className="dots" src={dots} alt="dots" />
             </div>
-
 
         </div>
     )
