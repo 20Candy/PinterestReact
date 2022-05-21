@@ -1,12 +1,12 @@
 <h1 align="center">
 <br>
-  <a href="https://github.com/leonardomso/react-bolt"><img src="https://i.imgur.com/bao0jf1.png" alt="Reddit React UI" width=150"></a>
+  <a href="https://github.com/leonardomso/react-bolt"><img src="https://i.imgur.com/bao0jf1.png" alt="Pinterest React UI" width=150"></a>
 <br>
 <br>
-Reddit React UI
+Pinteres Reac UI
 </h1>
 
-<p align="center">Reddit's main page recreated using React.</p>
+<p align="center">Pinterest's main page recreated using React.</p>
 
 <hr />
 
@@ -21,8 +21,8 @@ Reddit React UI
 
 ## Getting started
 
-1. Clone this repo using
-2. Move to the appropriate directory: `cd reddit-react-ui`.<br />
+1. Clone this repo 
+2. Move to the appropriate directory.<br />
 3. Run `npm install` to install dependencies.<br />
 4. Run `npm start` to see the example app at `http://localhost:8080`.
 
