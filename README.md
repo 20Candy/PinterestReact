@@ -1,9 +1,9 @@
 <h1 align="center">
 <br>
-  <a href="https://github.com/leonardomso/react-bolt"><img src="https://i.imgur.com/bao0jf1.png" alt="Pinterest React UI" width=150"></a>
+  <a href="https://github.com/leonardomso/react-bolt"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c52e.png" alt="Pinterest React UI" width=150"></a>
 <br>
 <br>
-Pinteres Reac UI
+Pinterest Reac UI
 </h1>
 
 <p align="center">Pinterest's main page recreated using React.</p>
