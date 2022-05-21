@@ -1,14 +1,13 @@
-import React from 'react';
-import pinterest from '../images/logo.png';
-import user from '../images/user.png';
-import mensaje from '../images/msg.png';
-import busqueda from '../images/search.png';
-import notificacion from '../images/bell.png';
-import arrow from '../images/arrow.png';
+import React from 'react'
+import pinterest from '../images/logo.png'
+import user from '../images/user.png'
+import mensaje from '../images/msg.png'
+import busqueda from '../images/search.png'
+import notificacion from '../images/bell.png'
+import arrow from '../images/arrow.png'
 
 function Bar() {
-
-    return(
+    return (
         <div className="header">
             <div className="headerLeft">
                 <img src={pinterest} />
@@ -18,8 +17,8 @@ function Bar() {
 
             <div className="headerMid">
                 <img src={busqueda} />
-                <input type="text" placeholder="Buscar"/>
-                
+                <input type="text" placeholder="Buscar" />
+
             </div>
 
             <div className="headerRight">
@@ -30,6 +29,5 @@ function Bar() {
             </div>
         </div>
     )
-
 }
 export default Bar

@@ -1,56 +1,20 @@
- import 'core-js/es/array';
-import React from 'react';
-
-import Card from './Card.jsx';
+import 'core-js/es/array'
+import React from 'react'
+import { data_list } from '../posts'
+import Card from './Card.jsx'
 
 function PinterestLayout() {
-
-
     return (
-        <div className='pin_container'>
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            <Card size={rand()} />
-            
+        <div className="pin_container">
 
+            {
+                data_list.map((object) => (
+                    <Card size={object.size} img={object.img} title={object.title} username={object.user} icon={object.reaction} likes={object.likes} />
+                ))
+            }
         </div>
+
     )
 }
 
-function rand(){
-
-    let size = ["small", "medium","large"]
-    let randSize = size[Math.floor(Math.random() * size.length)];
-    
-    return  randSize
-}
-
-export default PinterestLayout;
+export default PinterestLayout
