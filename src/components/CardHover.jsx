@@ -9,8 +9,11 @@ function OnHover(props) {
         <div className={'Hover '.concat(size)}>
             <h1 className="perfil">Perfil</h1>
             <h1 className="guardar">Guardar</h1>
-            <img className="share" src={share} alt="share" />
-            <img src={dots} alt="dots" />
+            <div>
+                <img className="share" src={share} alt="share" />
+                <img  className="dots" src={dots} alt="dots" />
+            </div>
+
 
         </div>
     )

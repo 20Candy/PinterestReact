@@ -27,7 +27,6 @@ body {
 
 .card{
     margin: 15px 10px;
-    padding: 0;
     border-radius: 16px;
     background-color: white;
     border: none;
@@ -51,18 +50,21 @@ body {
     border-radius: 16px;
     width: 230px;
     height:230px ;
+    cursor: pointer;
 }
 
 .medium>img{
     border-radius: 16px;
     width: 228px;
     height: 298px ;
+    cursor: pointer;
 }
 
 .large>img {
     border-radius: 16px;
     width: 228px;
     height: 418px ;
+    cursor: pointer;
 }
 
 /* HOVER */
@@ -101,25 +103,40 @@ body {
     opacity: 1;
 } 
 
-.Hover.small>img{
-    width: 50px;
-    height: 50px;
-    margin-top: 180px;
-    margin-left: 150px;
+.Hover.small>div{
+    position: absolute;
+    top:185px;
+    left: 140px;
+    width: 90px;
+    height: 35px;
+
 }
 
-.Hover.medium>img{
-    width: 50px;
-    height: 50px;
-    margin-top: 250px;
-    margin-left: 150px;
+.Hover.medium>div{
+    position: absolute;
+    top:250px;
+    left: 140px;
+    width: 90px;
+    height: 35px;
 }
 
-.Hover.large>img{
-    width: 50px;
-    height: 50px;
-    margin-top: 370px;
-    margin-left: 150px;
+.Hover.large>div{
+    position: absolute;
+    top:370px;
+    left: 140px;
+    width: 90px;
+    height: 35px;
+}
+
+.Hover>div>img{
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    opacity: 0.9;
+    margin-left: 5px;
+    cursor: pointer;
+
 }
 
 /* HOVER */
@@ -152,7 +169,6 @@ h2{
 
 .pin_container{
     margin-top: -25px;
-    padding: 0;
     width: 98vw;
     display: grid ;
     grid-template-columns: repeat(auto-fill, 250px);
@@ -195,11 +211,12 @@ h2{
     padding: 10px;
 }
 .headerLeft>img{
-    width: 48px;
-    height: 48px;
+    width: 28px;
+    height: 28px;
     border-radius: 33px;
-    padding: 10px;
-    margin-top: -4px;
+    margin-top: -6px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 .headerLeft>h3{
     padding:15px;
@@ -211,22 +228,9 @@ h2{
     font-weight: bold;
 }
 
-/* .focusWhite:hover{
-    background-color: #f0f3f5;
-    padding:10px;
-    border-radius: 20px;
-    cursor: pointer;
-} */
-/* .headerLeft>img:hover{
-    width: 44px;
-    height: 44px;
-    background-color: #f0f3f5;
-    cursor: pointer;
-    padding: 10px;
-} */
 
 .headerRight{
-    width: 300vw;
+    width: 350px;
     display: flex;
     flex-direction: row;
     margin-top: -10px;
@@ -239,15 +243,15 @@ h2{
     height: 30px;
     flex-direction: row;
     margin-left: 10px;
+    cursor:pointer
 
 }
 
 /* .headerRight>img:hover{
-    width: 44px;
-    height: 44px;
+    width: 35px;
+    height: 35px;
     background-color: #e0dede;
-    cursor: pointer;
-    padding: 10px;
+    border-radius: 50px;
 } */
 
 .guardar{
@@ -331,5 +335,4 @@ h2{
     border:16x;
     border-radius: 33px;
 } */
-
 
