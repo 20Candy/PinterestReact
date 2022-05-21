@@ -10,22 +10,22 @@ function Bar() {
     return (
         <div className="header">
             <div className="headerLeft">
-                <img src={pinterest} />
+                <img src={pinterest} alt="pinterest" />
                 <h3 className="focusBlack">Inicio</h3>
                 <h3 className="focusWhite">Hoy</h3>
             </div>
 
             <div className="headerMid">
-                <img src={busqueda} />
+                <img src={busqueda} alt="search" />
                 <input type="text" placeholder="Buscar" />
 
             </div>
 
             <div className="headerRight">
-                <img src={notificacion} />
-                <img src={mensaje} />
-                <img src={user} />
-                <img src={arrow} />
+                <img src={notificacion} alt="notification" />
+                <img src={mensaje} alt="message" />
+                <img src={user} alt="user" />
+                <img src={arrow} alt="arrow" />
             </div>
         </div>
     )

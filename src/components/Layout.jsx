@@ -1,7 +1,6 @@
-import 'core-js/es/array'
 import React from 'react'
-import { data_list } from '../posts'
-import Card from './Card.jsx'
+import data_list from '../posts'
+import Card from './Card'
 
 function PinterestLayout() {
     return (
@@ -9,7 +8,14 @@ function PinterestLayout() {
 
             {
                 data_list.map((object) => (
-                    <Card size={object.size} img={object.img} title={object.title} username={object.user} icon={object.reaction} likes={object.likes} />
+                    <Card
+                        size={object.size}
+                        img={object.img}
+                        title={object.title}
+                        username={object.user}
+                        icon={object.reaction}
+                        likes={object.likes}
+                    />
                 ))
             }
         </div>

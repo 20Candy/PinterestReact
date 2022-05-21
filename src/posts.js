@@ -1,4 +1,4 @@
-export const data_list = [
+const data_list = [
     {
         key: '1',
         img: 'https://i.pinimg.com/564x/ab/ef/52/abef5285bb51bbb8f3c8ce3f9a35e542.jpg',
@@ -16,8 +16,8 @@ export const data_list = [
         user: 'Jose Gonzalez',
         reaction: 'https://s.pinimg.com/webapp/love-c31e0b8d.svg',
         likes: '7',
-
     },
+
     {
         key: '3',
         img: 'https://i.pinimg.com/564x/fa/c1/bf/fac1bfdf068a57897e038488029f1f53.jpg',
@@ -132,7 +132,7 @@ export const data_list = [
         user: 'Nicolas Cage',
         reaction: 'https://s.pinimg.com/webapp/goodIdea-b770896d.svg',
         likes: '545',
-    },,
+    },
     {
         key: '15',
         img: 'https://i.pinimg.com/564x/22/40/6c/22406c1d885263cc9a7cbd8266d7db7d.jpg',
@@ -141,7 +141,7 @@ export const data_list = [
         user: 'Amber Heard',
         reaction: 'https://s.pinimg.com/webapp/wow-3cb697ef.svg',
         likes: '345',
-    },,
+    },
     {
         key: '16',
         img: 'https://i.pinimg.com/564x/8a/75/8e/8a758e574f9f59014d274142aeef26da.jpg',
@@ -153,3 +153,5 @@ export const data_list = [
     },
 
 ]
+
+export default data_list

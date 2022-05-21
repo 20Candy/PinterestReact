@@ -14,11 +14,11 @@ function Card(props) {
         <div className={'card '.concat(size)}>
 
             <OnHover size={size} />
-            <img src={img} />
+            <img src={img} alt="hover" />
             <h1>{title}</h1>
             <h2>{username}</h2>
-            <img className="user" src={user} />
-            <img className="icon" src={icon} />
+            <img className="user" src={user} alt="user" />
+            <img className="icon" src={icon} alt="icon" />
             <h3 className="likes">{likes}</h3>
 
         </div>

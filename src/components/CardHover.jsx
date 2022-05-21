@@ -5,14 +5,12 @@ import dots from '../images/dots.png'
 function OnHover(props) {
     const { size } = props
 
-    console.log(size)
-
     return (
         <div className={'Hover '.concat(size)}>
             <h1 className="perfil">Perfil</h1>
             <h1 className="guardar">Guardar</h1>
-            <img className="share" src={share} />
-            <img src={dots} />
+            <img className="share" src={share} alt="share" />
+            <img src={dots} alt="dots" />
 
         </div>
     )
